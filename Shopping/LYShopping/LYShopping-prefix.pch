@@ -1,0 +1,32 @@
+//
+//  LYShopping-prefix.pch
+//  LYShopping
+//
+//  Created by qianfeng on 15/9/22.
+//  Copyright (c) 2015年 李营. All rights reserved.
+//
+
+#ifndef LYShopping_LYShopping_prefix_pch
+#define LYShopping_LYShopping_prefix_pch
+
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import "MyHelper.h"
+#import "Factory.h"
+#import "UIView+Addition.h"
+#import "NetInterface.h"
+#import "LZXHelper.h"
+
+#endif
+#endif
