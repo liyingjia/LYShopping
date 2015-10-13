@@ -1,0 +1,37 @@
+//
+//  WeaponNews-Prefix.pch
+//  WeaponNews
+//
+//  Created by qianfeng on 15/9/18.
+//  Copyright (c) 2015年 李营. All rights reserved.
+//
+
+#ifndef WeaponNews_Prefix_pch
+#define WeaponNews_Prefix_pch
+
+#import<Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
+
+#import "MyHelper.h"
+#import "Factory.h"
+#import "UIView+Addition.h"
+#import "NetInterface.h"
+
+#ifdef DEBUG
+#define NSLog(...)NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+#endif
+
+
+#endif
